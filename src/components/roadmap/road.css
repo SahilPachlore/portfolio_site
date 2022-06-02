@@ -1,0 +1,60 @@
+.timeline {
+    background: var(--primary-color);
+    margin: 20px auto;
+    margin-left: 30px;
+    padding: 20px;
+    
+  }
+  
+  /* Outer Layer with the timeline border */
+  .outer {
+    border-left: 2px solid #333;
+  }
+  
+  /* Card container */
+  .card1 {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background: #333;
+    color: gray;
+    border-radius: 8px;
+    max-width: 400px;
+    height: auto;
+  }
+  .date{
+    font-size: 15px;
+  }
+  
+  /* Information about the timeline */
+  .info {
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  
+  /* Title of the card */
+  .title {
+    color: rgb(255, 255, 255);
+    
+    font-weight: bold;
+  }
+  .title2 {
+    color: rgb(255, 255, 255);
+    
+    font-weight: bold;
+  }
+  /* Timeline dot  */
+  .title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -39px;
+    border: 3px solid orangered;
+  }
+  .exp{
+    font-size: 50px;
+  }
